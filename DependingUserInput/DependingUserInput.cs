@@ -33,7 +33,7 @@ namespace DependingUserInput
                         Console.WriteLine("string --- {0}", userChoise);
                         break;
                     default:
-                        Console.WriteLine("Symbol is not integer, double or string");
+                        Console.WriteLine("Symbol is not integer, double or string!");
                         break;
                 }
 
