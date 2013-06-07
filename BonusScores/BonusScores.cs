@@ -7,14 +7,15 @@ namespace BonusScores
         static void Main()
         {
             Console.Write("Enter number: ");
-            int number;
-            int.TryParse(Console.ReadLine(), out number);
-
+            ushort number;
+            while (!ushort.TryParse(Console.ReadLine(), out number) || !Enumerable.Range(1, 9).Contains(number))
+            {
+                Console.Write("please enter number in range 1 to 9:");
+            }
             switch (Enumerable.Range(1, 9).Contains(number))
             {
                 case true:
-                    if (Enumerable.Range(1, 9).Contains(number))
-                    {
+
                         if (Enumerable.Range(1, 3).Contains(number))
                         {
                             switch (number)
@@ -22,7 +23,7 @@ namespace BonusScores
                                 case 1:
                                 case 2:
                                 case 3:
-                                    Console.WriteLine("result: {0} * 10 = {1}", number, number*10);
+                                    Console.WriteLine("result: {0} * 10 = {1}", number, number * 10);
                                     break;
                             }
                         }
@@ -33,7 +34,7 @@ namespace BonusScores
                                 case 4:
                                 case 5:
                                 case 6:
-                                    Console.WriteLine("result: {0} * 100 = {1}", number, number*100);
+                                    Console.WriteLine("result: {0} * 100 = {1}", number, number * 100);
                                     break;
                             }
                         }
@@ -44,12 +45,10 @@ namespace BonusScores
                                 case 7:
                                 case 8:
                                 case 9:
-                                    Console.WriteLine("result: {0} * 1000 = {1}", number, number*1000);
+                                    Console.WriteLine("result: {0} * 1000 = {1}", number, number * 1000);
                                     break;
                             }
                         }
-
-                    }
 
                     break;
 

@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependingUserInput", "Depen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubsetIsZero", "SubsetIsZero\SubsetIsZero.csproj", "{319CC71F-C644-46CD-8EEF-47F5668D3785}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonusScores", "BonusScores\BonusScores.csproj", "{19DF4967-2B8B-4C74-9664-51EB43B89DB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitToString", "DigitToString\DigitToString.csproj", "{7F417815-56E1-4F0B-8092-83720555B466}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,14 @@ Global
 		{319CC71F-C644-46CD-8EEF-47F5668D3785}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{319CC71F-C644-46CD-8EEF-47F5668D3785}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{319CC71F-C644-46CD-8EEF-47F5668D3785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19DF4967-2B8B-4C74-9664-51EB43B89DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19DF4967-2B8B-4C74-9664-51EB43B89DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19DF4967-2B8B-4C74-9664-51EB43B89DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19DF4967-2B8B-4C74-9664-51EB43B89DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F417815-56E1-4F0B-8092-83720555B466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F417815-56E1-4F0B-8092-83720555B466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F417815-56E1-4F0B-8092-83720555B466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F417815-56E1-4F0B-8092-83720555B466}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
